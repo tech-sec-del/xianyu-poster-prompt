@@ -1,0 +1,35 @@
+{
+  "skill_name": "xianyu-poster-prompt",
+  "evals": [
+    {
+      "id": 1,
+      "name": "3c-electronics-secondhand-camera",
+      "prompt": "我想在闲鱼上卖掉一台富士 X100V 旁轴相机，自用半年，配件齐全（电池、充电器、原装皮套、32G SD卡），95新，无划痕。帮我想个海报图的生成提示词",
+      "expected_output": "分析产品（相机 / 摄影器材 / 95新 / 自用），目标人群（摄影爱好者/文艺青年/学生），推荐 vintage-japanese 风格，给出 3 套不同侧重的海报方案（含英文 prompt、配色、字体、构图），强调自用、95新、配件齐全等闲鱼真实感卖点"
+    },
+    {
+      "id": 2,
+      "name": "fashion-flatlay-jacket",
+      "prompt": "闲鱼转卖一件 ZARA 米色风衣，穿过两三次吊牌还在，准备卖 280 元。想要 ins 平铺风的感觉",
+      "expected_output": "识别服饰品类，推荐 ins-flatlay 风格，给出俯拍平铺构图方案，prompt 中包含大理石/亚麻布、生活道具（咖啡杯/墨镜/杂志等），强调 9成新、吊牌在、自用真实感"
+    },
+    {
+      "id": 3,
+      "name": "tea-traditional-guochao",
+      "prompt": "帮我的正山小种茶叶礼盒做个闲鱼海报 prompt，朋友送的，自己不喝茶，想突出高级感和国潮风，预算 500 以内",
+      "expected_output": "识别茶叶/食品类，使用 guochao-ink 国潮水墨风格，配色红+黑+金，构图含水墨、毛笔字、印章等元素，提示词中体现礼盒包装、茶叶场景"
+    },
+    {
+      "id": 4,
+      "name": "toys-y2k-pop",
+      "prompt": "我有一套泡泡玛特 Molly 系列盲盒 4 只，全新未拆封，要在闲鱼出。帮我想个有潮流感的图片提示词，要亮闪闪的",
+      "expected_output": "识别潮玩品类，使用 y2k-pop 千禧风，提示词中包含镭射、霓虹粉、电光蓝、金属反光等 Y2K 视觉元素，强调全新未拆封的真实感"
+    },
+    {
+      "id": 5,
+      "name": "minimal-cosmetics-perfume",
+      "prompt": "出闲置，祖玛珑蓝风铃香水 100ml，9成新，只喷过两三次。想要极简清新的感觉",
+      "expected_output": "识别美妆香水品类，使用 minimalist-clean 极简风格，纯白底色，提示词体现香水瓶身、产品居中、留白、柔和光线等"
+    }
+  ]
+}
